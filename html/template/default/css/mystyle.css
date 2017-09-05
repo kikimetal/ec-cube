@@ -1,0 +1,32 @@
+#m body{
+    background: pink;
+}
+#m input,
+#m textarea,
+#m select{
+    font-size: 0.8rem;
+}
+#m select{
+    -webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+
+    position: relative;
+
+    background: white;
+    color: dimgrey;
+    border: 1px solid dimgrey;
+
+    padding-right: 2em;
+}
+#m select::after{
+    content: "v";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.5em 1em
+    border-radius: 50%;
+    border: 1px solid dimgrey;
+    background: pink;
+}

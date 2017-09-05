@@ -1,0 +1,32 @@
+{
+  "name": "ec-cube",
+  "version": "1.0.0",
+  "description": "kikimetal ec-cube test",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kikimetal/ec-cube.git"
+  },
+  "author": "kiki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kikimetal/ec-cube/issues"
+  },
+  "homepage": "https://github.com/kikimetal/ec-cube#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sass": "^3.1.0",
+    "postcss-cssnext": "^3.0.2"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  }
+}
