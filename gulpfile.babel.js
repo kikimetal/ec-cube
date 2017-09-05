@@ -10,7 +10,7 @@ import autoprefixer from "gulp-autoprefixer"
 // ];
 
 gulp.task("default", ()=>{
-    return gulp.src("./html/template/default/sass/*.sass")  // .scss/.sass ファイルを取得
+    return gulp.src("./ec/html/template/default/sass/*.sass")  // .scss/.sass ファイルを取得
         .pipe(sass({
             // outputStyle: "expanded" // コンパイルする際の CSS の書式を指定できる
             outputStyle: "compressed" // コンパイルする際の CSS の書式を指定できる
@@ -21,5 +21,5 @@ gulp.task("default", ()=>{
         }))
         // .pipe(postcss(processors))
         .pipe(concat("mystyle-bundle.css"))
-        .pipe(gulp.dest("./html/template/default/css/"));  // cssフォルダー以下に保存
+        .pipe(gulp.dest("./ec/html/template/default/css/"));  // cssフォルダー以下に保存
 });
