@@ -1,1 +1,36 @@
-#maylily.maylily.ec{color:steelblue}#maylily.maylily.ec body{background:pink}#maylily.maylily.ec input,#maylily.maylily.ec textarea,#maylily.maylily.ec select{font-size:0.8rem}#maylily.maylily.ec select{-webkit-appearance:none;-moz-appearance:none;appearance:none}#maylily.maylily.ec select{position:relative;background:white;color:dimgrey;border:1px solid dimgrey;padding-right:2em}#maylily.maylily.ec select::after{content:"v";display:inline-block;position:absolute;top:0;right:0;padding:0.5em 1em;border-radius:50%;border:1px solid dimgrey;background:pink}
+#maylily.maylily.ec select, #maylily.maylily.ec input, #maylily.maylily.ec textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+#maylily.maylily.ec select, #maylily.maylily.ec input, #maylily.maylily.ec textarea {
+  font-size: 0.9rem;
+}
+
+#maylily.maylily.ec {
+  color: steelblue;
+}
+
+#maylily.maylily.ec body {
+  background: pink;
+}
+
+#maylily.maylily.ec select {
+  position: relative;
+  background: white;
+  color: dimgrey;
+  border: 1px solid dimgrey;
+  padding-right: 2em;
+}
+
+#maylily.maylily.ec select::after {
+  content: "v";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  border: 1px solid dimgrey;
+  background: pink;
+}
