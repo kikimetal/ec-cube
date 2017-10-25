@@ -1,3 +1,7 @@
+#maylily.maylily.ec body {
+  background: white;
+}
+
 #maylily.maylily.ec select, #maylily.maylily.ec input, #maylily.maylily.ec textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -8,14 +12,6 @@
   font-size: 0.9rem;
 }
 
-#maylily.maylily.ec {
-  color: steelblue;
-}
-
-#maylily.maylily.ec body {
-  background: pink;
-}
-
 #maylily.maylily.ec select {
   position: relative;
   background: white;
@@ -24,13 +20,42 @@
   padding-right: 2em;
 }
 
-#maylily.maylily.ec select::after {
-  content: "v";
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  border-radius: 50%;
-  border: 1px solid dimgrey;
-  background: pink;
+#maylily.maylily.ec #header {
+  background: rgba(255, 255, 255, 0);
+}
+
+#maylily.maylily.ec #header .header_logo_area *,
+#maylily.maylily.ec #header #member *,
+#maylily.maylily.ec #header #category * {
+  color: #cd6ba3;
+}
+
+@media only screen and (max-width: 767px) {
+  #maylily.maylily.ec #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 56px;
+    background: rgba(255, 255, 255, 0.9);
+    -webkit-box-shadow: 0 1px 3px 0 rgba(20, 0, 0, 0.1);
+    box-shadow: 0 1px 3px 0 rgba(20, 0, 0, 0.1);
+  }
+}
+
+#maylily.maylily.ec #footer {
+  background: #8c8c8c;
+  color: white;
+}
+
+#maylily.maylily.ec #brand {
+  padding: 20px 14px 50px;
+  color: #888;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  #maylily.maylily.ec #contents {
+    padding-top: 56px;
+  }
 }

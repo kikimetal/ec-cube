@@ -1,15 +1,12 @@
+$main-text-color: rgb(205, 107, 163)
+
 #maylily.maylily.ec
+    body
+        background: rgb(255, 255, 255)
     select, input, textarea
         appearance: none
     select, input, textarea
         font-size: 0.9rem
-
-#maylily.maylily.ec
-    color: steelblue
-
-    body
-        background: pink
-
     select
         position: relative
         background: white
@@ -17,12 +14,40 @@
         border: 1px solid dimgrey
         padding-right: 2em
 
-    select::after
-        content: "v"
-        display: block
-        position: absolute
-        top: 0
-        right: 0
-        border-radius: 50%
-        border: 1px solid dimgrey
-        background: pink
+    // svg.cb.cb-shopping-cart
+        color: grey
+
+    #header
+        background: rgba(255, 255, 255, 0)
+
+        .header_logo_area,
+        #member,
+        #category
+            *
+                color: $main-text-color
+
+        @media only screen and (max-width: 767px)
+            position: fixed
+            top: 0
+            left: 0
+            right: 0
+            height: 56px
+            background: rgba(255, 255, 255, 0.9)
+            box-shadow: 0 1px 3px 0 rgba(20,0,0,0.1)
+
+    // #contents,
+    // #drawer
+
+    #footer
+        background: rgba(140, 140, 140, 1)
+        color: white
+
+    #brand
+        padding: 20px 14px 50px
+        color: #888
+        font-size: 15px
+        // border: 3px solid
+
+    #contents
+        @media only screen and (max-width: 767px)
+            padding-top: 56px

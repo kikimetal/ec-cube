@@ -3,13 +3,6 @@ import sass from "gulp-sass"
 import concat from "gulp-concat"
 import autoprefixer from "gulp-autoprefixer"
 
-// import postcss from "gulp-postcss"
-// import cssnext from "postcss-cssnext"
-// const processors = [
-//     cssnext({browsers: ['last 2 version']})
-// ];
-// .pipe(postcss(processors))
-
 const source_dir = "./ec/html/template/default/sass/*.sass"
 const output_dir = "./ec/html/template/default/css/"
 const bundle_css_name = "mystyle-bundle.css"
@@ -43,3 +36,5 @@ gulp.task("css-min", ()=>{
 gulp.task("watch", ["css"], ()=>{
     gulp.watch(source_dir, ["css"])
 })
+
+gulp.task("default", ["css"])

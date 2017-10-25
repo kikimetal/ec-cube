@@ -335,7 +335,8 @@ body {
 	/* --------- common ---------- */
 
 	#contents {
-		padding-top: 30px;
+		/*padding-top: 30px;*/
+		margin-top: 56px;
 	}
 
 	/****** Header Setting ********/
@@ -345,8 +346,9 @@ body {
 	/* header */
 
 	#header .header_logo_area {
-		float: left;
-		margin-right: 265px;
+		/*float: left;
+		margin-right: 265px;*/
+		/*background: black;*/
 	}
 	#header #drawer #search {
 		position: relative;
